@@ -63,20 +63,20 @@ const App: React.FC = () => {
             </section>
 
             {/* Slide 3: What We Do */}
-            <section id="slide3" className="slide bg-primary-gray">
+            <section id="slide3" className="slide bg-primary-dark">
                  <div className="slide-content">
                     <h2 className="text-4xl md:text-6xl font-bold text-white mb-12 text-center">Lo que proponemos implementar es:</h2>
                     <div className="max-w-5xl mx-auto space-y-8">
                         <div className="bg-light p-6 rounded-xl shadow-lg flex items-center space-x-6 border border-gray-200">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16 text-primary-dark flex-shrink-0"><path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V6a2.25 2.25 0 012.25-2.25h3.75a2.25 2.25 0 012.25 2.25v.75m-10.5 6v6a2.25 2.25 0 002.25 2.25h3.75a2.25 2.25 0 002.25-2.25v-6" /><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75h3.75m-3.75 3h3.75M9 18h3.75m-3.75-9h3.75" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16 text-primary-blue flex-shrink-0"><path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V6a2.25 2.25 0 012.25-2.25h3.75a2.25 2.25 0 012.25 2.25v.75m-10.5 6v6a2.25 2.25 0 002.25 2.25h3.75a2.25 2.25 0 002.25-2.25v-6" /><path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75h3.75m-3.75 3h3.75M9 18h3.75m-3.75-9h3.75" /></svg>
                             <p className="text-dark text-xl md:text-2xl font-semibold">Check-in/out exprés con tablets o kioscos.</p>
                         </div>
                         <div className="bg-light p-6 rounded-xl shadow-lg flex items-center space-x-6 border border-gray-200">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16 text-primary-dark flex-shrink-0"><path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16 text-primary-blue flex-shrink-0"><path strokeLinecap="round" strokeLinejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" /></svg>
                             <p className="text-dark text-xl md:text-2xl font-semibold">Portal único de comunicación (WhatsApp + App huésped).</p>
                         </div>
                         <div className="bg-light p-6 rounded-xl shadow-lg flex items-center space-x-6 border border-gray-200">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16 text-primary-dark flex-shrink-0"><path strokeLinecap="round" strokeLinejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" /></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-16 h-16 text-primary-blue flex-shrink-0"><path strokeLinecap="round" strokeLinejoin="round" d="M7.5 14.25v2.25m3-4.5v4.5m3-6.75v6.75m3-9v9M6 20.25h12A2.25 2.25 0 0020.25 18V6A2.25 2.25 0 0018 3.75H6A2.25 2.25 0 003.75 6v12A2.25 2.25 0 006 20.25z" /></svg>
                             <p className="text-dark text-xl md:text-2xl font-semibold">Encuestas rápidas post-estancia.</p>
                         </div>
                     </div>
@@ -106,7 +106,7 @@ const App: React.FC = () => {
 
 
             {/* Slide 5: Deliverables */}
-            <section id="slide5" className="slide bg-primary-gray">
+            <section id="slide5" className="slide bg-primary-dark">
                 <div className="slide-content">
                     <h2 className="text-4xl md:text-6xl font-bold text-white mb-12 text-center">📦 Entregables:</h2>
                     <div className="max-w-4xl mx-auto space-y-6">
@@ -143,7 +143,7 @@ const App: React.FC = () => {
             </section>
 
             {/* Slide 7: Tools */}
-            <section id="slide7" className="slide bg-primary-gray">
+            <section id="slide7" className="slide bg-primary-dark">
                 <div className="slide-content text-center">
                     <h2 className="text-4xl md:text-6xl font-bold text-white mb-16">🛠 Herramientas:</h2>
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-5xl mx-auto">
