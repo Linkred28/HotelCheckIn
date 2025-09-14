@@ -148,7 +148,7 @@ const App: React.FC = () => {
             {/* Slide 7: Tools */}
             <section id="slide7" className="slide bg-primary-dark">
                 <div className="slide-content text-center">
-                    <h2 className="text-4xl md:text-6xl font-bold text-white mb-16">🛠 Herramientas: Power Apps, WhatsApp Business API, Power Automate, Power BI.</h2>
+                    <h2 className="text-4xl md:text-6xl font-bold text-white mb-16">🛠 Herramientas:</h2>
                     <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 max-w-5xl mx-auto">
                         {tools.map((tool, index) => (
                              <div key={index} className="bg-white p-6 md:p-8 rounded-2xl shadow-lg flex flex-col items-center justify-center text-center transition-transform transform hover:scale-105 duration-300 border border-gray-100">
