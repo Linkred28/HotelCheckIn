@@ -133,13 +133,34 @@ const App: React.FC = () => {
                     <h2 className="text-4xl md:text-6xl font-bold text-white mb-16 text-center">📈 KPIs:</h2>
                     <div className="timeline-container">
                         <div className="timeline-item timeline-left">
-                            <div className="timeline-content"><h3 className="text-xl md:text-2xl font-bold text-dark">Tiempo promedio de check-in (minutos que tarda un huésped en completar su llegada).</h3></div>
+                            <div className="timeline-content">
+                                <h3 className="text-xl md:text-2xl font-bold text-dark">
+                                    Tiempo promedio de check-in
+                                    <span className="block text-gray-600 font-normal mt-2">
+                                        (minutos que tarda un huésped en completar su llegada)
+                                    </span>
+                                </h3>
+                            </div>
                         </div>
                         <div className="timeline-item timeline-right">
-                            <div className="timeline-content"><h3 className="text-xl md:text-2xl font-bold text-dark">% de solicitudes atendidas en menos de 15 minutos (mide la velocidad de respuesta).</h3></div>
+                            <div className="timeline-content">
+                                <h3 className="text-xl md:text-2xl font-bold text-dark">
+                                    % de solicitudes atendidas en menos de 15 minutos
+                                    <span className="block text-gray-600 font-normal mt-2">
+                                        (mide la velocidad de respuesta)
+                                    </span>
+                                </h3>
+                            </div>
                         </div>
                         <div className="timeline-item timeline-left">
-                            <div className="timeline-content"><h3 className="text-xl md:text-2xl font-bold text-dark">Calificación promedio de servicio en Booking/TripAdvisor (promedio específico sobre atención).</h3></div>
+                            <div className="timeline-content">
+                                <h3 className="text-xl md:text-2xl font-bold text-dark">
+                                    Calificación promedio de servicio en Booking/TripAdvisor
+                                    <span className="block text-gray-600 font-normal mt-2">
+                                        (promedio específico sobre atención)
+                                    </span>
+                                </h3>
+                            </div>
                         </div>
                     </div>
                 </div>
